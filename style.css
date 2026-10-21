@@ -1,0 +1,62 @@
+h1 {color: black;
+    font-size: 54px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+h2 {color: #000000;
+    font-size: 32px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+p {color: #000000;
+    font-size: 20px;
+    font-family: "Corben", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.instruction {color: #000000;
+    font-size: 14px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+  margin: 0;
+  background-color: #c5c8fb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.upload-box {
+  width: 80%;
+  padding: 16px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  font-size: 16px;
+  margin-bottom: 16px;
+  justify-content: center;
+}
+.shuffle-butt{
+  padding: 16px 32px;
+  font-family: "Krona One", sans-serif;
+  width: 80%;
+  background-color: #fcd75e;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.footer-text{
+    color: #000000;
+    font-size: 16px;
+    font-family: "Corben", serif;
+    font-weight: 400;
+    font-style: normal;
+}

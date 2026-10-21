@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Krona+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">  
+<title>Shuffles</title>
+        
+    </head>
+    <body>
+        <h1>Shuffled</h1>
+        <h2>Pick the next read from your TBR</h2>
+        <p>Too many books on your reading list? Export your library from Goodreads or Storygraph and have your TBR Shuffled.</p>
+        <div class="upload-box">
+          <p class="instruction">Upload your Goodreads or Storygraph export</p>
+          <input id="csvUpload" type="file" accept=".csv">
+        </div>
+        <button id="shuffleButton" class="shuffle-butt" disabled> Shuffle</button>
+        <p class="footer-text">Made with love by Amantle &lt;3 </p>
+        <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

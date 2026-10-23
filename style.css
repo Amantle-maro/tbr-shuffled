@@ -42,6 +42,10 @@ body {
   font-size: 16px;
   margin-bottom: 16px;
   justify-content: center;
+.header {
+    display: flex;
+    gap: 12px;
+}
 }
 .shuffle-butt{
   padding: 16px 32px;
@@ -92,4 +96,7 @@ body {
   font-size: 16px;
   margin-bottom: 16px;
   justify-content: center;}
+   .shuffle-butt {
+    font-size: 12px;
+   }
 } 

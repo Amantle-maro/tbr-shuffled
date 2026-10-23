@@ -1,4 +1,4 @@
-h1 {color: #FAFAFA;
+h1 {color: #000000;
     font-size: 54px;
     font-family: "Krona One", sans-serif;
     font-weight: 400;
@@ -32,6 +32,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap:16px;
 }
 .upload-box {
   width: 80%;
@@ -46,16 +47,16 @@ body {
   padding: 16px 32px;
   font-family: "Krona One", sans-serif;
   width: 80%;
-  background-color: #fcd75e;
+  background-color: #FDFA98;
   color: black;
   border: none;
-  border-radius: 12px;
-  font-size: 16px;
+  border-radius: 8px;
+  font-size: 20px;
   cursor: pointer;
   margin-bottom:12px;
 }
 .export{
-    background-color: #05668D;
+    background-color: #8A82D6;
     color: #FAFAFA;
     padding: 10px 20px;
     text-decoration: none;
@@ -74,8 +75,8 @@ body {
 
 @media (max-width: 768px) {
     h1 {font-size: 36px}
-    h2{font-size:20px}
-    p{font-size:16px}
+    h2{font-size:16px}
+    p{font-size:12px}
     body {padding: 32px}
     .footer-text{
     color: #121212;
@@ -88,7 +89,7 @@ body {
   padding: 16px;
   background-color: #ffffff;
   border: 1px solid #000000;
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 16px;
   justify-content: center;}
 } 

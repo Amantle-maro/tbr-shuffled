@@ -40,7 +40,6 @@ body {
   background-color: #ffffff;
   border: 1px solid #000000;
   font-size: 16px;
-  margin-bottom: 16px;
   justify-content: center;
 .header {
     display: flex;
@@ -54,8 +53,8 @@ body {
   background-color: #FDFA98;
   color: black;
   border: none;
-  border-radius: 8px;
-  font-size: 20px;
+  border-radius: 0px;
+  font-size: 16px;
   cursor: pointer;
   margin-bottom:12px;
 }

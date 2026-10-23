@@ -64,20 +64,20 @@ body {
 /* For mobile view */
 
 @media (max-width: 768px) {
-    h1 {font-size: 40px}
+    h1 {font-size: 64px}
     body {padding: 20px}
     .footer-text{
     color: #121212;
-    font-size: 24px;
+    font-size: 32px;
     font-family: "Corben", serif;
     font-weight: 400;
     font-style: normal;}
     .upload-box {
   width: 80%;
-  padding: 16px;
+  padding: 32px;
   background-color: #ffffff;
   border: 1px solid #000000;
-  font-size: 24px;
+  font-size: 32px;
   margin-bottom: 16px;
   justify-content: center;}
 } 

@@ -27,7 +27,7 @@ if (csvUpload) {
                     .filter(book => book.title);
 
                 console.log(tbrBooks);
-
+                localStorage.setItem("tbrBooks", JSON.stringify(tbrBooks));
                 shuffleButton.disabled = tbrBooks.length === 0;
 
                 console.log(
@@ -61,13 +61,41 @@ if (shuffleButton) {
 
 const bookTitle = document.getElementById("bookTitle");
 const bookAuthor = document.getElementById("bookAuthor");
+const retry = document.getElementById("retry");
 
 if (bookTitle && bookAuthor) {
 
     const savedBook = localStorage.getItem("chosenBook");
     const chosenBook = JSON.parse(savedBook);
 
-    bookTitle.textContent = chosenBook.title;
-    bookAuthor.textContent = chosenBook.author;
+    if (chosenBook) {
+        bookTitle.textContent = chosenBook.title;
+        bookAuthor.textContent = chosenBook.author;
+    }
 
+    if (retry) {
+        retry.addEventListener("click", function () {
+
+            const books = JSON.parse(
+                localStorage.getItem("tbrBooks")
+            );
+
+            if (!books || books.length === 0) return;
+
+            const randomIndex = Math.floor(
+                Math.random() * books.length
+            );
+
+            const newBook = books[randomIndex];
+
+            localStorage.setItem(
+                "chosenBook",
+                JSON.stringify(newBook)
+            );
+
+            bookTitle.textContent = newBook.title;
+            bookAuthor.textContent = newBook.author;
+
+        });
+    }
 }

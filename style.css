@@ -77,9 +77,9 @@ body {
 /* For mobile view */
 
 @media (max-width: 768px) {
-    h1 {font-size: 36px}
+    h1 {font-size: 40px}
     h2{font-size:16px}
-    p{font-size:12px}
+    p{font-size:20px}
     body {padding: 32px}
     .footer-text{
     color: #121212;
@@ -92,7 +92,7 @@ body {
   padding: 16px;
   background-color: #ffffff;
   border: 1px solid #000000;
-  font-size: 16px;
+  font-size: 12px;
   margin-bottom: 16px;
   justify-content: center;}
    .shuffle-butt {

@@ -93,14 +93,16 @@ body {
     font-weight: 400;
     font-style: normal;}
     .upload-box {
-  width: 80%;
-  padding: 16px;
-  background-color: #ffffff;
-  border: 1px solid #000000;
-  font-size: 12px;
-  margin-bottom: 16px;
-  justify-content: center;}
-   .shuffle-butt {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
     font-size: 12px;
-   }
+    margin-bottom: 16px;}
+.shuffle-butt {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    font-size: 12px;}
 } 

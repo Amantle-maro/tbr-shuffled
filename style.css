@@ -81,7 +81,9 @@ body {
     h1 {font-size: 40px}
     h2{font-size:16px}
     p{font-size:16px}
-    body {padding: 32px}
+    body {
+    padding: 16px 20px;
+    justify-content: flex-start;}
     .footer-text{
     color: #121212;
     font-size: 16px;

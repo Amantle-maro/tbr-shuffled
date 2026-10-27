@@ -83,7 +83,8 @@ body {
     p{font-size:16px}
     body {
     padding: 16px 20px;
-    justify-content: flex-start;}
+    justify-content: space-between;
+    box-sizing: border-box;}
     .footer-text{
     color: #121212;
     font-size: 16px;
